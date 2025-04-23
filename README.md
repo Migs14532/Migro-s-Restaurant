@@ -1,1 +1,1 @@
-# Migro-s-Restaurant
+# Migros-Restaurant
