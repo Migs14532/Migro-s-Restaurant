@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Migro's Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .back-arrow {
+      font-size: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+    .menu-item {
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+      background: #ccc;
+      display: block;
+      margin: 0 auto 10px;
+      border-radius: 10px;
+    }
+    .menu-item:last-child {
+      grid-column: span 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="loading.html" class="back-arrow">&larr;</a>
+    <h1>Migro's Restaurant</h1>
+    <div class="menu">
+      <div class="menu-item">
+      <a href= "drinks.html"><img src="drinks.png" alt="Drinks"> </a>
+        <div>Drinks</div>
+      </div>
+      <div class="menu-item">
+      <a href= "desserts.html"><img src="desserts.png" alt="Desserts"> </a>
+        <div>Dessert</div>
+      </div>
+      <div class="menu-item">
+      <a href= "meals.html"><img src="meals.png" alt="Meals"> </a>
+        <div>Meals</div>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
